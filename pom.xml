@@ -20,6 +20,10 @@
         <module>eureka-7003</module>
         <module>consumer-hystrix-dashboard</module>
         <module>zuul-gateway-9527</module>
+        <module>config-3344</module>
+        <module>config-client-3355</module>
+        <module>config-eureka-7001</module>
+        <module>config-provider-dept-8001</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
