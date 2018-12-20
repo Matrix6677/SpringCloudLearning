@@ -33,4 +33,5 @@ microservice
 127.0.0.1 myzuul.com
 127.0.0.1 config-3344.com
 127.0.0.1 client-config.com
+127.0.0.1 gateway-9527.com
 ```
