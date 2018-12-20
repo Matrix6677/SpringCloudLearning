@@ -23,5 +23,5 @@ zuul:
   prefix: /sziit                                 # 路由前缀
   ignored-services: "*"                          # 忽略真实服务名，单个请填微服务名
   routes:                                        # 代理转发
-    mydept.serviceId: microservicecloud-dept
+    mydept.serviceId: microservice-dept
     mydept.path: /mydept/**

@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(
-    value = "MICROSERVICECLOUD-DEPT",
-    fallbackFactory = DeptClientServiceFallbackFactory.class)
+@FeignClient(value = "MICROSERVICE-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
   @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
   Dept get(@PathVariable("id") long id);
